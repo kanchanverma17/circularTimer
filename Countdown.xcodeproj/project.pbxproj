@@ -13,6 +13,7 @@
 		0B6961B11F666C4B00E1FAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6961AF1F666C4B00E1FAFF /* Main.storyboard */; };
 		0B6961B31F666C4B00E1FAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6961B21F666C4B00E1FAFF /* Assets.xcassets */; };
 		0B6961B61F666C4B00E1FAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6961B41F666C4B00E1FAFF /* LaunchScreen.storyboard */; };
+		0B7BFD871F75336E00BD97DF /* circleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BFD861F75336E00BD97DF /* circleTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B6961B21F666C4B00E1FAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6961B51F666C4B00E1FAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B6961B71F666C4B00E1FAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7BFD851F75336E00BD97DF /* circleTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circleTimer.h; sourceTree = "<group>"; };
+		0B7BFD861F75336E00BD97DF /* circleTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		0B6961A51F666C4B00E1FAFF /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				0B7BFD881F75337800BD97DF /* circle */,
 				0B6961A91F666C4B00E1FAFF /* AppDelegate.h */,
 				0B6961AA1F666C4B00E1FAFF /* AppDelegate.m */,
 				0B6961AC1F666C4B00E1FAFF /* ViewController.h */,
@@ -77,6 +81,15 @@
 				0B6961A71F666C4B00E1FAFF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B7BFD881F75337800BD97DF /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BFD861F75336E00BD97DF /* circleTimer.m */,
+				0B7BFD851F75336E00BD97DF /* circleTimer.h */,
+			);
+			name = circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				0B6961AE1F666C4B00E1FAFF /* ViewController.m in Sources */,
 				0B6961AB1F666C4B00E1FAFF /* AppDelegate.m in Sources */,
 				0B6961A81F666C4B00E1FAFF /* main.m in Sources */,
+				0B7BFD871F75336E00BD97DF /* circleTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +326,7 @@
 				0B6961BC1F666C4B00E1FAFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

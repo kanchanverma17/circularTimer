@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "circleTimer.h"
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *remainTimeLbl;
