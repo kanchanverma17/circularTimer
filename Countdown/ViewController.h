@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *remainTimeLbl;
+@property (weak, nonatomic) IBOutlet UIView *timerFrameVW;
 
 @end
 
