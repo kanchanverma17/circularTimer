@@ -123,7 +123,6 @@
 				TargetAttributes = {
 					0B6961A21F666C4B00E1FAFF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PNKDNHEU67;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -287,10 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PNKDNHEU67;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Countdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suntec.Countdown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -299,10 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PNKDNHEU67;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Countdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suntec.Countdown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
