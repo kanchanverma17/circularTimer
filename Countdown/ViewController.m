@@ -19,33 +19,34 @@
     CGFloat endLimit;
     CGFloat commonDiff;
     CGFloat commonDiffAngle;
+    circleTimer *ctimer;
 }
 
 - (void)viewDidLoad {
-//    [super viewDidLoad];
-//    countValue = 120;
-//    endLimit = M_PI_2 + M_PI;
-//    CGFloat radius = self.timerFrameVW.frame.size.width/2;
-//    commonDiff = (2*M_PI*radius)/countValue;
-//    commonDiffAngle = commonDiff/radius;
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
     
-    circleTimer *ctimer = [[circleTimer alloc]initWithFrame:self.timerFrameVW.frame];
-    ctimer.maxTime = 120;
-    ctimer.colorForStroke = [UIColor greenColor];
-    ctimer.colorForBase = [UIColor lightGrayColor];
+    ctimer = [[circleTimer alloc]initWithFrame:self.timerFrameVW.frame];
+    ctimer.maxTime = 20;
+    ctimer.colorForStroke = [UIColor systemTealColor];
+    ctimer.colorForBase = [UIColor lightTextColor];
     ctimer.colorForText = [UIColor blackColor];
     ctimer.heightForLabel = 20;
     ctimer.strokeThickness = 3.0;
+    ctimer.tag = 101;
     [self.view addSubview:ctimer];
+    
 
     [ctimer fireThisTimer];
 }
 
+- (IBAction)restart:(id)sender {
+    ctimer.maxTime = 20;
+    [ctimer restartThisTimer];
+}
 
 
 - (void)didReceiveMemoryWarning {

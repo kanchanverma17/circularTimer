@@ -18,4 +18,5 @@
 @property  CGFloat heightForLabel;
 @property  CGFloat strokeThickness;
 -(void)fireThisTimer;
+-(void)restartThisTimer;
 @end
